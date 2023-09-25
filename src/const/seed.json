@@ -1,0 +1,2522 @@
+[
+  {
+    "teacher": [
+      {
+        "id": "8acaaba7-789d-4d2c-9d08-0f3107d6f106",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-24T17:43:38.078Z",
+        "created_at": "2023-09-24T19:06:37.914Z",
+        "updated_at": "2023-09-24T12:16:10.538Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8975c06e-a558-4d19-8b6d-a712e978b1c1",
+        "subject": "English",
+        "hired_date": "2023-09-24T23:33:37.965Z",
+        "created_at": "2023-09-25T04:40:41.320Z",
+        "updated_at": "2023-09-24T12:18:11.453Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e1f93a8-1929-4983-b54c-8814ed4dde78",
+        "subject": "Science",
+        "hired_date": "2023-09-25T10:10:38.778Z",
+        "created_at": "2023-09-24T15:18:42.342Z",
+        "updated_at": "2023-09-24T13:46:33.356Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82f6e332-7162-4dfb-8686-564128705a09",
+        "subject": "History",
+        "hired_date": "2023-09-25T00:56:33.240Z",
+        "created_at": "2023-09-25T01:41:44.824Z",
+        "updated_at": "2023-09-25T00:55:01.003Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34d37236-402a-4a48-b220-4459784ffd45",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-25T06:33:43.952Z",
+        "created_at": "2023-09-24T22:09:27.443Z",
+        "updated_at": "2023-09-24T23:20:07.683Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "ee09f308-28f4-4599-930c-0dd5b2b018c6",
+        "grade": 13460,
+        "class": "Grade 9",
+        "enrollment_date": "2023-09-25T08:51:45.610Z",
+        "created_at": "2023-09-24T15:21:42.534Z",
+        "updated_at": "2023-09-25T10:06:35.329Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32fafe36-fc3c-4e83-bfd0-cdf5a4dbe4c2",
+        "grade": 37178,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T23:59:17.738Z",
+        "created_at": "2023-09-25T10:16:56.272Z",
+        "updated_at": "2023-09-25T06:22:32.109Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b061ecea-7e59-4577-96ae-75769a21691b",
+        "grade": 94244,
+        "class": "Grade 11",
+        "enrollment_date": "2023-09-24T10:54:43.174Z",
+        "created_at": "2023-09-24T11:06:52.546Z",
+        "updated_at": "2023-09-24T22:12:15.261Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eeef7ad9-8200-4ef3-aadc-93b7e32dd220",
+        "grade": 45998,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-24T19:38:03.404Z",
+        "created_at": "2023-09-25T05:39:57.488Z",
+        "updated_at": "2023-09-24T11:07:46.662Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97be130e-cfe5-49d8-bdf7-a04481105814",
+        "grade": 55199,
+        "class": "College",
+        "enrollment_date": "2023-09-24T22:44:46.097Z",
+        "created_at": "2023-09-25T09:42:15.895Z",
+        "updated_at": "2023-09-25T10:22:53.511Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "1fc131e7-63a6-4fff-b74c-889635201258",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and problem-solving",
+        "created_at": "2023-09-25T05:31:14.371Z",
+        "updated_at": "2023-09-25T09:07:28.398Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "32fafe36-fc3c-4e83-bfd0-cdf5a4dbe4c2",
+        "teacher_id": "34d37236-402a-4a48-b220-4459784ffd45"
+      },
+      {
+        "id": "4d61815a-eee0-4bff-8872-f2c4a968cd7b",
+        "name": "Business Management",
+        "description": "Gain insights into effective business strategies and leadership",
+        "created_at": "2023-09-25T04:19:08.534Z",
+        "updated_at": "2023-09-25T03:46:41.455Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "97be130e-cfe5-49d8-bdf7-a04481105814",
+        "teacher_id": "2e1f93a8-1929-4983-b54c-8814ed4dde78"
+      },
+      {
+        "id": "0ebd8ad5-f0c2-402d-992e-b582f96ccff7",
+        "name": "Artificial Intelligence",
+        "description": "Explore the world of AI and its applications",
+        "created_at": "2023-09-25T07:50:07.587Z",
+        "updated_at": "2023-09-24T13:33:09.636Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "ee09f308-28f4-4599-930c-0dd5b2b018c6",
+        "teacher_id": "8975c06e-a558-4d19-8b6d-a712e978b1c1"
+      },
+      {
+        "id": "cb18b715-7e6d-42d8-a224-e8965a3f82a4",
+        "name": "Environmental Science",
+        "description": "Study the impact of human activities on the environment",
+        "created_at": "2023-09-25T00:06:47.466Z",
+        "updated_at": "2023-09-24T13:45:21.773Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "ee09f308-28f4-4599-930c-0dd5b2b018c6",
+        "teacher_id": "8acaaba7-789d-4d2c-9d08-0f3107d6f106"
+      },
+      {
+        "id": "9b92646e-da73-4190-88e7-6e778bc4e3ca",
+        "name": "Data Analysis",
+        "description": "Master the techniques of data analysis and visualization",
+        "created_at": "2023-09-24T23:36:34.466Z",
+        "updated_at": "2023-09-24T19:11:20.427Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "eeef7ad9-8200-4ef3-aadc-93b7e32dd220",
+        "teacher_id": "34d37236-402a-4a48-b220-4459784ffd45"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "25fee1a6-74e5-441b-bc9e-343c4e59f020",
+        "grade": 40278,
+        "attendance": 75437,
+        "performance": "Excellent",
+        "created_at": "2023-09-24T22:17:35.435Z",
+        "updated_at": "2023-09-24T21:33:36.466Z",
+        "course_id": "1fc131e7-63a6-4fff-b74c-889635201258",
+        "student_id": "eeef7ad9-8200-4ef3-aadc-93b7e32dd220"
+      },
+      {
+        "id": "85100e50-b0e5-46a7-ab4d-78b7613bb1be",
+        "grade": 6279,
+        "attendance": 19437,
+        "performance": "Good",
+        "created_at": "2023-09-25T01:47:43.441Z",
+        "updated_at": "2023-09-25T06:13:06.009Z",
+        "course_id": "4d61815a-eee0-4bff-8872-f2c4a968cd7b",
+        "student_id": "eeef7ad9-8200-4ef3-aadc-93b7e32dd220"
+      },
+      {
+        "id": "a0e5a054-909c-40a6-938f-a066ae569fe2",
+        "grade": 67986,
+        "attendance": 6169,
+        "performance": "Average",
+        "created_at": "2023-09-24T12:27:21.385Z",
+        "updated_at": "2023-09-24T18:53:56.549Z",
+        "course_id": "4d61815a-eee0-4bff-8872-f2c4a968cd7b",
+        "student_id": "97be130e-cfe5-49d8-bdf7-a04481105814"
+      },
+      {
+        "id": "f7476ec4-3e09-4ef9-80bb-350152bb1989",
+        "grade": 92393,
+        "attendance": 56809,
+        "performance": "Below Average",
+        "created_at": "2023-09-25T07:31:42.866Z",
+        "updated_at": "2023-09-24T14:42:47.393Z",
+        "course_id": "4d61815a-eee0-4bff-8872-f2c4a968cd7b",
+        "student_id": "b061ecea-7e59-4577-96ae-75769a21691b"
+      },
+      {
+        "id": "364b4531-86f3-4c92-9897-a235270ee7d8",
+        "grade": 87111,
+        "attendance": 30614,
+        "performance": "Poor",
+        "created_at": "2023-09-24T21:16:57.834Z",
+        "updated_at": "2023-09-25T06:12:18.533Z",
+        "course_id": "cb18b715-7e6d-42d8-a224-e8965a3f82a4",
+        "student_id": "97be130e-cfe5-49d8-bdf7-a04481105814"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4e721fd7-002a-4b77-92c7-5d70f484afeb",
+        "email": "Guy50@roq.tech",
+        "firstName": "Lura",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84a8c2d1-f684-41d3-a7c5-13ec2b81d3b3",
+        "email": "Toni90@roq.tech",
+        "firstName": "Cyrus",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ecc96983-ac9a-4503-8701-2f6f1d48643e",
+        "email": "Kailee_Hayes51@roq.tech",
+        "firstName": "Lysanne",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16b5cebc-3f0e-4a14-a5dd-b76b35fceed0",
+        "email": "Skyla26@roq.tech",
+        "firstName": "Maritza",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc2de23f-626c-4b32-bbb8-c0685a7fecb6",
+        "email": "Brain35@roq.tech",
+        "firstName": "Marlen",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66366480",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "a647a869-751e-4a16-89c5-3f048d911592",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-25T03:46:03.580Z",
+        "created_at": "2023-09-24T19:31:31.456Z",
+        "updated_at": "2023-09-25T00:31:45.054Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93f40ecb-f4f1-4e96-aea5-39641c3808fd",
+        "subject": "Science",
+        "hired_date": "2023-09-24T11:49:07.621Z",
+        "created_at": "2023-09-25T03:46:41.939Z",
+        "updated_at": "2023-09-24T15:57:54.419Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa24fb6f-66db-476a-a6ab-76386ef18c4d",
+        "subject": "English",
+        "hired_date": "2023-09-24T21:16:30.105Z",
+        "created_at": "2023-09-24T17:09:46.614Z",
+        "updated_at": "2023-09-24T13:16:31.954Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7817fb7e-683d-4cc4-b679-912f90ce17d5",
+        "subject": "History",
+        "hired_date": "2023-09-24T18:25:03.344Z",
+        "created_at": "2023-09-25T05:32:00.497Z",
+        "updated_at": "2023-09-25T04:51:19.365Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24bbd374-5265-4a5a-b06d-322514f6b060",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-25T04:05:48.050Z",
+        "created_at": "2023-09-24T22:44:27.180Z",
+        "updated_at": "2023-09-24T16:10:34.374Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "9938bc3a-a9cf-483d-b6ca-447011f06d1f",
+        "grade": 4098,
+        "class": "Grade 9",
+        "enrollment_date": "2023-09-24T22:11:00.948Z",
+        "created_at": "2023-09-25T05:54:57.808Z",
+        "updated_at": "2023-09-25T01:24:40.101Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0e9e60a-1b53-403f-8228-a1528e43bd9f",
+        "grade": 77808,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T11:58:07.064Z",
+        "created_at": "2023-09-25T06:18:52.900Z",
+        "updated_at": "2023-09-25T08:46:19.655Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bc46984-0682-4ca1-9956-4c98d119fb89",
+        "grade": 17375,
+        "class": "Grade 11",
+        "enrollment_date": "2023-09-25T05:31:27.935Z",
+        "created_at": "2023-09-25T04:16:20.195Z",
+        "updated_at": "2023-09-24T22:06:44.208Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f669285-005d-438d-9d57-7bbcfe112104",
+        "grade": 59801,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-24T16:18:32.875Z",
+        "created_at": "2023-09-24T15:17:45.363Z",
+        "updated_at": "2023-09-24T10:50:54.453Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c434f2bc-2c8f-47f8-9819-c7673173d897",
+        "grade": 51917,
+        "class": "College",
+        "enrollment_date": "2023-09-24T18:47:27.202Z",
+        "created_at": "2023-09-25T00:34:37.118Z",
+        "updated_at": "2023-09-25T01:19:31.965Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "050cd1b8-ff0e-4ad6-9e75-8cdfb76e50f3",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and problem-solving",
+        "created_at": "2023-09-25T04:27:57.725Z",
+        "updated_at": "2023-09-25T08:58:19.248Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "a0e9e60a-1b53-403f-8228-a1528e43bd9f",
+        "teacher_id": "7817fb7e-683d-4cc4-b679-912f90ce17d5"
+      },
+      {
+        "id": "edf9ed8f-8807-485f-9574-76c928e27125",
+        "name": "Business Management",
+        "description": "Explore key concepts in business management",
+        "created_at": "2023-09-24T12:39:08.760Z",
+        "updated_at": "2023-09-25T07:48:47.476Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "9938bc3a-a9cf-483d-b6ca-447011f06d1f",
+        "teacher_id": "a647a869-751e-4a16-89c5-3f048d911592"
+      },
+      {
+        "id": "97eeaa2d-75d1-4a62-810f-c611bc2cb45c",
+        "name": "Artificial Intelligence",
+        "description": "Discover the potential of AI in various industries",
+        "created_at": "2023-09-24T17:20:00.755Z",
+        "updated_at": "2023-09-24T12:38:06.618Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "9938bc3a-a9cf-483d-b6ca-447011f06d1f",
+        "teacher_id": "24bbd374-5265-4a5a-b06d-322514f6b060"
+      },
+      {
+        "id": "599efc0f-e253-41b3-be20-b5392c8fb497",
+        "name": "Environmental Science",
+        "description": "Study the impact of human activities on the environment",
+        "created_at": "2023-09-24T12:58:30.251Z",
+        "updated_at": "2023-09-25T04:58:16.060Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "9938bc3a-a9cf-483d-b6ca-447011f06d1f",
+        "teacher_id": "93f40ecb-f4f1-4e96-aea5-39641c3808fd"
+      },
+      {
+        "id": "77ecf6a2-4085-46da-9d51-dfc66678f009",
+        "name": "Creative Writing",
+        "description": "Develop your writing skills and unleash your creativity",
+        "created_at": "2023-09-24T11:49:26.356Z",
+        "updated_at": "2023-09-24T22:54:49.531Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "a0e9e60a-1b53-403f-8228-a1528e43bd9f",
+        "teacher_id": "24bbd374-5265-4a5a-b06d-322514f6b060"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "7a92572f-3a41-4e36-b263-58d2154bc13b",
+        "grade": 19491,
+        "attendance": 28435,
+        "performance": "Excellent",
+        "created_at": "2023-09-24T18:29:51.112Z",
+        "updated_at": "2023-09-24T14:34:04.683Z",
+        "course_id": "599efc0f-e253-41b3-be20-b5392c8fb497",
+        "student_id": "9938bc3a-a9cf-483d-b6ca-447011f06d1f"
+      },
+      {
+        "id": "3875b946-090e-4734-af9e-a93cdd0b24c6",
+        "grade": 61665,
+        "attendance": 83647,
+        "performance": "Good",
+        "created_at": "2023-09-24T21:12:53.023Z",
+        "updated_at": "2023-09-24T14:42:11.306Z",
+        "course_id": "599efc0f-e253-41b3-be20-b5392c8fb497",
+        "student_id": "6f669285-005d-438d-9d57-7bbcfe112104"
+      },
+      {
+        "id": "60bb7afe-a8b9-4e63-a5a6-1de1c7bb6741",
+        "grade": 59559,
+        "attendance": 80936,
+        "performance": "Average",
+        "created_at": "2023-09-24T10:54:02.847Z",
+        "updated_at": "2023-09-25T00:43:22.568Z",
+        "course_id": "77ecf6a2-4085-46da-9d51-dfc66678f009",
+        "student_id": "a0e9e60a-1b53-403f-8228-a1528e43bd9f"
+      },
+      {
+        "id": "860e0216-d15e-4c22-893e-8da2255bff44",
+        "grade": 73454,
+        "attendance": 16151,
+        "performance": "Below Average",
+        "created_at": "2023-09-25T09:56:08.429Z",
+        "updated_at": "2023-09-25T03:32:00.122Z",
+        "course_id": "599efc0f-e253-41b3-be20-b5392c8fb497",
+        "student_id": "6f669285-005d-438d-9d57-7bbcfe112104"
+      },
+      {
+        "id": "e7e18cf7-b18c-4fea-936c-8d19e34dc9e6",
+        "grade": 6341,
+        "attendance": 28054,
+        "performance": "Poor",
+        "created_at": "2023-09-24T16:28:24.285Z",
+        "updated_at": "2023-09-24T13:26:41.244Z",
+        "course_id": "599efc0f-e253-41b3-be20-b5392c8fb497",
+        "student_id": "a0e9e60a-1b53-403f-8228-a1528e43bd9f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a6f2c2b-ba3b-4be4-a854-18c002a0e8b4",
+        "email": "Noemi.Weber92@roq.tech",
+        "firstName": "Kristopher",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30360501",
+        "tenantId": null
+      },
+      {
+        "reference": "4fdd2f29-8368-40fe-9a36-71797ed55a2e",
+        "email": "Madilyn.McDermott@roq.tech",
+        "firstName": "Milford",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/976.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f6ef2d8-8829-430c-988d-ab39d4686638",
+        "email": "Annetta50@roq.tech",
+        "firstName": "Velda",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/190.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a6e81fa6-310b-4eed-a185-9243f5890d73",
+        "email": "Kaley.Ritchie@roq.tech",
+        "firstName": "Winifred",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/403.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d30477d1-cc2a-4cda-ad5d-a8cbc0454a9d",
+        "email": "Osborne.Klein@roq.tech",
+        "firstName": "Janessa",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65631846",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "8f4da020-86ca-4039-9066-4ab2b0b6d978",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-24T12:28:31.510Z",
+        "created_at": "2023-09-25T08:45:33.658Z",
+        "updated_at": "2023-09-25T01:21:44.134Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60b656e6-49de-4653-8d35-c11af8adc948",
+        "subject": "Science",
+        "hired_date": "2023-09-24T12:37:30.756Z",
+        "created_at": "2023-09-25T07:30:08.909Z",
+        "updated_at": "2023-09-25T02:08:10.493Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "524465a0-5208-4705-b9c0-72a1d0df9c3d",
+        "subject": "English",
+        "hired_date": "2023-09-24T17:39:06.527Z",
+        "created_at": "2023-09-24T12:23:29.147Z",
+        "updated_at": "2023-09-25T05:07:16.841Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52667313-30ac-4063-952c-088923b3f518",
+        "subject": "History",
+        "hired_date": "2023-09-24T23:07:15.151Z",
+        "created_at": "2023-09-24T18:19:13.022Z",
+        "updated_at": "2023-09-25T07:05:58.290Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bac12f71-3b2b-4274-a49f-4c91752baf75",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-25T05:00:49.179Z",
+        "created_at": "2023-09-25T00:45:29.641Z",
+        "updated_at": "2023-09-24T14:59:01.503Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "0b14813a-7649-4303-b3cd-0dae1299469e",
+        "grade": 5753,
+        "class": "Grade 9",
+        "enrollment_date": "2023-09-24T21:09:35.856Z",
+        "created_at": "2023-09-25T07:54:01.537Z",
+        "updated_at": "2023-09-25T04:03:37.500Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b59fe05c-e187-492e-b15f-8f41cc29cc0e",
+        "grade": 29726,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T16:53:22.570Z",
+        "created_at": "2023-09-25T09:15:23.602Z",
+        "updated_at": "2023-09-24T17:12:06.515Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44fb5bd1-9fec-4758-8fbb-e7312974f2ed",
+        "grade": 12583,
+        "class": "Grade 11",
+        "enrollment_date": "2023-09-25T09:05:39.452Z",
+        "created_at": "2023-09-24T21:14:05.364Z",
+        "updated_at": "2023-09-25T03:22:11.371Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5276ebf-c20c-4da0-bfa8-862e8fa7e79f",
+        "grade": 90873,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-24T18:27:08.348Z",
+        "created_at": "2023-09-25T05:14:48.460Z",
+        "updated_at": "2023-09-25T08:49:54.886Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e0669a8-a89d-4348-a3c3-ab01e572d1f0",
+        "grade": 2670,
+        "class": "College",
+        "enrollment_date": "2023-09-25T04:45:35.988Z",
+        "created_at": "2023-09-25T00:39:51.214Z",
+        "updated_at": "2023-09-24T17:14:14.520Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "f8f8ebbe-834c-4a6e-b494-cdc1dd02eb18",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and develop problem-solving skills",
+        "created_at": "2023-09-25T04:14:55.391Z",
+        "updated_at": "2023-09-25T05:58:31.059Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "b5276ebf-c20c-4da0-bfa8-862e8fa7e79f",
+        "teacher_id": "bac12f71-3b2b-4274-a49f-4c91752baf75"
+      },
+      {
+        "id": "f5ff6349-d52e-40c0-9231-64c25458f319",
+        "name": "Marketing Strategies",
+        "description": "Explore various marketing techniques and their applications",
+        "created_at": "2023-09-24T23:16:09.693Z",
+        "updated_at": "2023-09-24T17:48:15.468Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "0b14813a-7649-4303-b3cd-0dae1299469e",
+        "teacher_id": "524465a0-5208-4705-b9c0-72a1d0df9c3d"
+      },
+      {
+        "id": "5ed32031-6051-4085-8353-04580921847c",
+        "name": "Financial Accounting",
+        "description": "Understand the principles of financial accounting and analyze financial statements",
+        "created_at": "2023-09-25T10:11:53.900Z",
+        "updated_at": "2023-09-24T19:12:50.019Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "b5276ebf-c20c-4da0-bfa8-862e8fa7e79f",
+        "teacher_id": "bac12f71-3b2b-4274-a49f-4c91752baf75"
+      },
+      {
+        "id": "9205282b-4c77-46b9-a4d2-cadf5defa2a5",
+        "name": "Artificial Intelligence",
+        "description": "Study the concepts and algorithms behind artificial intelligence",
+        "created_at": "2023-09-25T05:05:58.842Z",
+        "updated_at": "2023-09-25T02:01:29.486Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "b5276ebf-c20c-4da0-bfa8-862e8fa7e79f",
+        "teacher_id": "8f4da020-86ca-4039-9066-4ab2b0b6d978"
+      },
+      {
+        "id": "f97a600a-2a35-4fc4-a761-568587f4d27a",
+        "name": "Business Ethics",
+        "description": "Examine ethical issues in business and develop ethical decision-making abilities",
+        "created_at": "2023-09-24T22:18:08.078Z",
+        "updated_at": "2023-09-24T14:48:20.989Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "b5276ebf-c20c-4da0-bfa8-862e8fa7e79f",
+        "teacher_id": "60b656e6-49de-4653-8d35-c11af8adc948"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "fc3f3c20-2c00-4d52-9a0b-101c3d0948bf",
+        "grade": 95402,
+        "attendance": 81912,
+        "performance": "Excellent",
+        "created_at": "2023-09-25T00:26:25.617Z",
+        "updated_at": "2023-09-24T22:19:19.752Z",
+        "course_id": "f5ff6349-d52e-40c0-9231-64c25458f319",
+        "student_id": "44fb5bd1-9fec-4758-8fbb-e7312974f2ed"
+      },
+      {
+        "id": "995387f3-6892-4c2f-8fcd-8aba8c859800",
+        "grade": 61350,
+        "attendance": 9877,
+        "performance": "Good",
+        "created_at": "2023-09-24T15:38:59.554Z",
+        "updated_at": "2023-09-24T13:24:16.969Z",
+        "course_id": "5ed32031-6051-4085-8353-04580921847c",
+        "student_id": "2e0669a8-a89d-4348-a3c3-ab01e572d1f0"
+      },
+      {
+        "id": "14bf4da9-3b2e-4106-bb93-cb7e50a2c67d",
+        "grade": 38004,
+        "attendance": 43596,
+        "performance": "Average",
+        "created_at": "2023-09-25T03:50:59.889Z",
+        "updated_at": "2023-09-24T16:17:25.055Z",
+        "course_id": "9205282b-4c77-46b9-a4d2-cadf5defa2a5",
+        "student_id": "b5276ebf-c20c-4da0-bfa8-862e8fa7e79f"
+      },
+      {
+        "id": "db04ff73-ace3-4000-9020-190870ab29aa",
+        "grade": 29132,
+        "attendance": 79323,
+        "performance": "Below Average",
+        "created_at": "2023-09-24T13:23:36.796Z",
+        "updated_at": "2023-09-24T15:46:13.794Z",
+        "course_id": "9205282b-4c77-46b9-a4d2-cadf5defa2a5",
+        "student_id": "b59fe05c-e187-492e-b15f-8f41cc29cc0e"
+      },
+      {
+        "id": "61298f04-4772-4dbb-8c4f-99fc26e2992e",
+        "grade": 28937,
+        "attendance": 27642,
+        "performance": "Poor",
+        "created_at": "2023-09-24T11:20:17.829Z",
+        "updated_at": "2023-09-24T23:27:40.292Z",
+        "course_id": "f8f8ebbe-834c-4a6e-b494-cdc1dd02eb18",
+        "student_id": "0b14813a-7649-4303-b3cd-0dae1299469e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ec1af514-5329-4cb3-aa9d-0de09aad00fb",
+        "email": "Columbus44@roq.tech",
+        "firstName": "Lorena",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47825575",
+        "tenantId": null
+      },
+      {
+        "reference": "29208d12-2935-4ae7-a10d-6b08da651cc9",
+        "email": "Cleveland.Kemmer@roq.tech",
+        "firstName": "Sabryna",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/206.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "560323e2-a482-44cd-93b4-16d05665d2e6",
+        "email": "Carolyn.Sipes73@roq.tech",
+        "firstName": "Abner",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5185391",
+        "tenantId": null
+      },
+      {
+        "reference": "498f379f-0611-4c9a-b5e1-11df7a0f79c7",
+        "email": "Brionna.Gibson@roq.tech",
+        "firstName": "Kelton",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/471.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "285ac39f-f0db-4c4b-81c8-f05eccca63c7",
+        "email": "Marilyne_Roberts@roq.tech",
+        "firstName": "Toby",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56994329",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "78ee272d-2550-41d3-a6e4-be258ef3c94e",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-24T17:14:52.221Z",
+        "created_at": "2023-09-24T15:02:34.784Z",
+        "updated_at": "2023-09-24T23:13:26.076Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62a401c4-4a54-4b1c-a81f-b5e0b35723dd",
+        "subject": "Science",
+        "hired_date": "2023-09-24T21:08:59.133Z",
+        "created_at": "2023-09-25T04:59:31.632Z",
+        "updated_at": "2023-09-25T00:47:59.985Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe04402b-1b0c-4403-92de-11bdafb8b105",
+        "subject": "English",
+        "hired_date": "2023-09-25T02:37:57.473Z",
+        "created_at": "2023-09-24T15:42:22.726Z",
+        "updated_at": "2023-09-25T01:10:18.739Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "086e7251-7876-4450-9c02-2204f3d8674c",
+        "subject": "History",
+        "hired_date": "2023-09-25T08:08:57.099Z",
+        "created_at": "2023-09-24T22:46:10.705Z",
+        "updated_at": "2023-09-25T06:05:08.973Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a866d560-77ea-4d4a-89af-896a984636e7",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-24T21:35:25.539Z",
+        "created_at": "2023-09-25T06:33:53.180Z",
+        "updated_at": "2023-09-25T02:22:39.540Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "53206165-e94c-48fb-95e2-25c835c42a47",
+        "grade": 39782,
+        "class": "Grade 1",
+        "enrollment_date": "2023-09-25T00:03:22.177Z",
+        "created_at": "2023-09-25T10:41:35.916Z",
+        "updated_at": "2023-09-24T11:40:22.440Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b05b0b83-9cb2-4687-bdc7-8d83794dd64b",
+        "grade": 29674,
+        "class": "Grade 5",
+        "enrollment_date": "2023-09-24T12:38:12.313Z",
+        "created_at": "2023-09-25T03:43:17.159Z",
+        "updated_at": "2023-09-24T17:05:00.253Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8491f6f8-4adc-4a5a-9e30-599d1d6f7388",
+        "grade": 46872,
+        "class": "Grade 8",
+        "enrollment_date": "2023-09-24T16:55:30.940Z",
+        "created_at": "2023-09-24T20:42:22.109Z",
+        "updated_at": "2023-09-25T05:11:52.710Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b61233ff-f422-40aa-a6d2-1b49cca43f79",
+        "grade": 74720,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T21:28:08.015Z",
+        "created_at": "2023-09-25T05:01:21.426Z",
+        "updated_at": "2023-09-24T16:28:18.485Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "283417ee-a069-4dac-9819-169af7e092b4",
+        "grade": 76118,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-24T14:18:42.719Z",
+        "created_at": "2023-09-24T18:12:06.796Z",
+        "updated_at": "2023-09-25T04:06:46.429Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "9c887660-034b-4f25-ba95-8fbc19231e13",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming",
+        "created_at": "2023-09-24T16:42:20.138Z",
+        "updated_at": "2023-09-25T02:10:07.650Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "283417ee-a069-4dac-9819-169af7e092b4",
+        "teacher_id": "a866d560-77ea-4d4a-89af-896a984636e7"
+      },
+      {
+        "id": "1cc2c485-c104-42dc-80e8-8ad3b52780cb",
+        "name": "Artificial Intelligence",
+        "description": "Explore the world of AI",
+        "created_at": "2023-09-24T22:44:42.593Z",
+        "updated_at": "2023-09-24T18:17:50.544Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "283417ee-a069-4dac-9819-169af7e092b4",
+        "teacher_id": "fe04402b-1b0c-4403-92de-11bdafb8b105"
+      },
+      {
+        "id": "472fb0fd-7f61-44bb-b1ef-c09ca8d60102",
+        "name": "Data Analysis",
+        "description": "Analyze data using statistical techniques",
+        "created_at": "2023-09-25T05:44:33.874Z",
+        "updated_at": "2023-09-24T19:53:36.750Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "b05b0b83-9cb2-4687-bdc7-8d83794dd64b",
+        "teacher_id": "fe04402b-1b0c-4403-92de-11bdafb8b105"
+      },
+      {
+        "id": "9d56e341-08ec-4a1d-98b1-3a3f9f5ab105",
+        "name": "Web Development",
+        "description": "Build dynamic websites",
+        "created_at": "2023-09-24T18:41:07.557Z",
+        "updated_at": "2023-09-25T07:19:24.142Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "b61233ff-f422-40aa-a6d2-1b49cca43f79",
+        "teacher_id": "086e7251-7876-4450-9c02-2204f3d8674c"
+      },
+      {
+        "id": "e7691531-19ac-4f81-adec-4028da1d4580",
+        "name": "Mobile App Development",
+        "description": "Create mobile apps for iOS and Android",
+        "created_at": "2023-09-24T11:53:16.808Z",
+        "updated_at": "2023-09-25T06:47:18.660Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "b05b0b83-9cb2-4687-bdc7-8d83794dd64b",
+        "teacher_id": "78ee272d-2550-41d3-a6e4-be258ef3c94e"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "b585211e-a16c-435f-8a8a-238f80a0d47f",
+        "grade": 733,
+        "attendance": 74156,
+        "performance": "Excellent",
+        "created_at": "2023-09-25T09:04:07.630Z",
+        "updated_at": "2023-09-24T11:16:45.677Z",
+        "course_id": "9d56e341-08ec-4a1d-98b1-3a3f9f5ab105",
+        "student_id": "b61233ff-f422-40aa-a6d2-1b49cca43f79"
+      },
+      {
+        "id": "68c5bcb0-453a-4a07-913c-e43c887a6586",
+        "grade": 46314,
+        "attendance": 59891,
+        "performance": "Good",
+        "created_at": "2023-09-24T12:27:30.517Z",
+        "updated_at": "2023-09-25T07:52:16.255Z",
+        "course_id": "472fb0fd-7f61-44bb-b1ef-c09ca8d60102",
+        "student_id": "b61233ff-f422-40aa-a6d2-1b49cca43f79"
+      },
+      {
+        "id": "4b83a479-f174-4b30-b940-57485e3e6f73",
+        "grade": 77836,
+        "attendance": 23893,
+        "performance": "Average",
+        "created_at": "2023-09-24T15:00:25.868Z",
+        "updated_at": "2023-09-24T22:07:38.273Z",
+        "course_id": "9c887660-034b-4f25-ba95-8fbc19231e13",
+        "student_id": "53206165-e94c-48fb-95e2-25c835c42a47"
+      },
+      {
+        "id": "8993c4a5-6e29-4d63-9871-67f940b9dd51",
+        "grade": 54647,
+        "attendance": 41247,
+        "performance": "Below Average",
+        "created_at": "2023-09-25T07:48:15.645Z",
+        "updated_at": "2023-09-25T05:09:46.081Z",
+        "course_id": "472fb0fd-7f61-44bb-b1ef-c09ca8d60102",
+        "student_id": "53206165-e94c-48fb-95e2-25c835c42a47"
+      },
+      {
+        "id": "2064bb26-cecc-407b-bc62-084f4e116df9",
+        "grade": 88277,
+        "attendance": 87822,
+        "performance": "Poor",
+        "created_at": "2023-09-25T05:10:55.684Z",
+        "updated_at": "2023-09-24T21:21:01.114Z",
+        "course_id": "9d56e341-08ec-4a1d-98b1-3a3f9f5ab105",
+        "student_id": "b05b0b83-9cb2-4687-bdc7-8d83794dd64b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f21699d7-c72e-475c-af26-0dff14ccab0b",
+        "email": "Maurine_Shields73@roq.tech",
+        "firstName": "Mathew",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85587193",
+        "tenantId": null
+      },
+      {
+        "reference": "94640a54-7ac8-4b35-9343-7d02845aac7d",
+        "email": "Loren_Romaguera@roq.tech",
+        "firstName": "Darian",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90797378",
+        "tenantId": null
+      },
+      {
+        "reference": "6f98e135-1103-43de-beaf-7ddd32fd9dcb",
+        "email": "Fidel_Wunsch@roq.tech",
+        "firstName": "General",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1178.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2cf7fa3b-6805-485c-80c7-499b3faf06e7",
+        "email": "Vladimir76@roq.tech",
+        "firstName": "Fanny",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54930008",
+        "tenantId": null
+      },
+      {
+        "reference": "ec6ffa6b-4f08-4eba-a74f-7bd7ccf4a117",
+        "email": "Avery75@roq.tech",
+        "firstName": "Jayde",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1043.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "7cac54b8-a417-4cc4-81fc-50b66c4ef357",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-25T10:24:44.772Z",
+        "created_at": "2023-09-24T18:49:49.974Z",
+        "updated_at": "2023-09-24T21:44:53.761Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb6d05f9-7ec6-452c-bfa8-61dfcc759c90",
+        "subject": "English Literature",
+        "hired_date": "2023-09-24T13:24:31.053Z",
+        "created_at": "2023-09-24T16:25:26.478Z",
+        "updated_at": "2023-09-25T10:27:37.089Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25c05f6b-8691-406d-9b1b-f882d1b1a180",
+        "subject": "Science",
+        "hired_date": "2023-09-24T14:38:40.776Z",
+        "created_at": "2023-09-24T21:56:18.244Z",
+        "updated_at": "2023-09-24T15:28:04.873Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd959528-1347-4f9a-a3e9-50d163cd5fae",
+        "subject": "History",
+        "hired_date": "2023-09-24T11:48:00.959Z",
+        "created_at": "2023-09-25T01:40:25.862Z",
+        "updated_at": "2023-09-25T04:25:10.177Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d01ff29-267b-4b88-82c8-6358d2ee2e66",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-24T10:50:55.526Z",
+        "created_at": "2023-09-25T09:03:00.588Z",
+        "updated_at": "2023-09-25T06:23:15.000Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "8d1443c7-b489-4d4a-ac85-d1d02f7256dd",
+        "grade": 4102,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T14:13:38.044Z",
+        "created_at": "2023-09-24T17:22:54.554Z",
+        "updated_at": "2023-09-24T22:12:12.502Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d4e691f-47c5-4831-b71f-8e4b50c618bc",
+        "grade": 46547,
+        "class": "Grade 8",
+        "enrollment_date": "2023-09-24T18:29:11.823Z",
+        "created_at": "2023-09-24T23:14:04.094Z",
+        "updated_at": "2023-09-24T15:47:31.169Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33f434e0-f61e-457d-a075-b8c392091bb4",
+        "grade": 75757,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-24T20:45:17.852Z",
+        "created_at": "2023-09-24T22:40:17.621Z",
+        "updated_at": "2023-09-24T20:38:54.711Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c54e2b56-f29b-46a2-a6a5-feea56e86703",
+        "grade": 3089,
+        "class": "Grade 6",
+        "enrollment_date": "2023-09-25T10:02:44.858Z",
+        "created_at": "2023-09-24T15:39:08.817Z",
+        "updated_at": "2023-09-24T13:05:07.093Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8176e89e-b4b7-4378-813d-6545f1d4a413",
+        "grade": 74662,
+        "class": "Grade 9",
+        "enrollment_date": "2023-09-24T17:21:16.425Z",
+        "created_at": "2023-09-24T23:38:08.069Z",
+        "updated_at": "2023-09-25T04:34:54.030Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "786debca-c955-425a-ad9b-7008ee0f0a34",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming",
+        "created_at": "2023-09-24T23:40:25.112Z",
+        "updated_at": "2023-09-24T18:41:44.590Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "9d4e691f-47c5-4831-b71f-8e4b50c618bc",
+        "teacher_id": "cb6d05f9-7ec6-452c-bfa8-61dfcc759c90"
+      },
+      {
+        "id": "71355376-d8d0-4fdb-b328-83ec74dd6477",
+        "name": "Artificial Intelligence",
+        "description": "Explore the world of AI",
+        "created_at": "2023-09-24T23:45:22.800Z",
+        "updated_at": "2023-09-25T09:54:03.558Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "c54e2b56-f29b-46a2-a6a5-feea56e86703",
+        "teacher_id": "7cac54b8-a417-4cc4-81fc-50b66c4ef357"
+      },
+      {
+        "id": "ff364073-0a10-448c-95a2-71e93efa898e",
+        "name": "Web Development",
+        "description": "Build dynamic websites",
+        "created_at": "2023-09-25T04:11:56.697Z",
+        "updated_at": "2023-09-24T13:15:37.258Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "33f434e0-f61e-457d-a075-b8c392091bb4",
+        "teacher_id": "7d01ff29-267b-4b88-82c8-6358d2ee2e66"
+      },
+      {
+        "id": "20b8b639-56de-48d4-835b-b3336b3d41b0",
+        "name": "Data Science",
+        "description": "Analyze and visualize data",
+        "created_at": "2023-09-25T09:13:34.791Z",
+        "updated_at": "2023-09-24T22:37:32.219Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "33f434e0-f61e-457d-a075-b8c392091bb4",
+        "teacher_id": "25c05f6b-8691-406d-9b1b-f882d1b1a180"
+      },
+      {
+        "id": "59e97181-1cbb-41f7-927f-314f294ad30f",
+        "name": "Mobile App Development",
+        "description": "Create mobile apps for iOS and Android",
+        "created_at": "2023-09-25T02:51:26.937Z",
+        "updated_at": "2023-09-24T21:39:59.954Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "c54e2b56-f29b-46a2-a6a5-feea56e86703",
+        "teacher_id": "fd959528-1347-4f9a-a3e9-50d163cd5fae"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "f23d5182-aab5-4314-ad23-416d729ba683",
+        "grade": 41854,
+        "attendance": 24353,
+        "performance": "Excellent",
+        "created_at": "2023-09-25T09:59:29.614Z",
+        "updated_at": "2023-09-25T01:28:18.140Z",
+        "course_id": "71355376-d8d0-4fdb-b328-83ec74dd6477",
+        "student_id": "8d1443c7-b489-4d4a-ac85-d1d02f7256dd"
+      },
+      {
+        "id": "145a3abf-c0c7-4f13-bccc-6a8f88030696",
+        "grade": 32921,
+        "attendance": 61018,
+        "performance": "Good",
+        "created_at": "2023-09-25T08:17:32.277Z",
+        "updated_at": "2023-09-24T15:01:33.741Z",
+        "course_id": "786debca-c955-425a-ad9b-7008ee0f0a34",
+        "student_id": "9d4e691f-47c5-4831-b71f-8e4b50c618bc"
+      },
+      {
+        "id": "14f5535e-f9a4-4c71-8e5f-cc36de936525",
+        "grade": 84371,
+        "attendance": 83472,
+        "performance": "Average",
+        "created_at": "2023-09-24T15:02:54.464Z",
+        "updated_at": "2023-09-24T21:03:30.822Z",
+        "course_id": "71355376-d8d0-4fdb-b328-83ec74dd6477",
+        "student_id": "33f434e0-f61e-457d-a075-b8c392091bb4"
+      },
+      {
+        "id": "4c1b4696-0028-4456-9f2c-125f9da1e188",
+        "grade": 40897,
+        "attendance": 96842,
+        "performance": "Below Average",
+        "created_at": "2023-09-25T01:35:18.008Z",
+        "updated_at": "2023-09-25T02:22:33.276Z",
+        "course_id": "71355376-d8d0-4fdb-b328-83ec74dd6477",
+        "student_id": "8d1443c7-b489-4d4a-ac85-d1d02f7256dd"
+      },
+      {
+        "id": "56cc65fb-55e2-4d32-9355-bb33794198a4",
+        "grade": 96217,
+        "attendance": 2977,
+        "performance": "Poor",
+        "created_at": "2023-09-24T11:46:40.446Z",
+        "updated_at": "2023-09-25T00:21:53.688Z",
+        "course_id": "71355376-d8d0-4fdb-b328-83ec74dd6477",
+        "student_id": "8d1443c7-b489-4d4a-ac85-d1d02f7256dd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e52b09db-b654-49e6-8c1f-1acad1c04345",
+        "email": "Bennett17@roq.tech",
+        "firstName": "Ola",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91991880",
+        "tenantId": null
+      },
+      {
+        "reference": "a414caeb-e3b8-40e1-9e93-179aa84e7ba5",
+        "email": "Maybell63@roq.tech",
+        "firstName": "Randall",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1090.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "271f3194-1e4b-4803-92f6-5d0e4888d47b",
+        "email": "Selena_McKenzie-Kreiger75@roq.tech",
+        "firstName": "Donavon",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46163298",
+        "tenantId": null
+      },
+      {
+        "reference": "bc82fe41-9afc-4214-8198-e5270134e336",
+        "email": "Lonzo30@roq.tech",
+        "firstName": "Lesley",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80142180",
+        "tenantId": null
+      },
+      {
+        "reference": "00888189-b67d-4fed-8719-02f84bf805ab",
+        "email": "Laurianne_Waelchi@roq.tech",
+        "firstName": "Rosalind",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7783432",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "0b4ce544-8bb5-43b4-83be-29f6e01ddc94",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-25T10:17:15.630Z",
+        "created_at": "2023-09-24T11:10:26.476Z",
+        "updated_at": "2023-09-24T14:42:56.151Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "328c4ad5-66ee-4b40-a95e-19d33f791eb2",
+        "subject": "Science",
+        "hired_date": "2023-09-24T21:52:37.399Z",
+        "created_at": "2023-09-25T02:21:27.351Z",
+        "updated_at": "2023-09-24T12:55:00.224Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb8ba8b5-c49e-41ef-8a9a-bd188e829513",
+        "subject": "English",
+        "hired_date": "2023-09-24T13:18:04.227Z",
+        "created_at": "2023-09-24T19:37:27.931Z",
+        "updated_at": "2023-09-25T04:48:45.116Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6886bbc-9bd8-4d80-be3e-40e46e8a7c16",
+        "subject": "History",
+        "hired_date": "2023-09-24T15:47:05.935Z",
+        "created_at": "2023-09-24T20:46:16.978Z",
+        "updated_at": "2023-09-24T15:55:33.040Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "773f74bf-dc31-4cf9-ae37-0b34b7e9fa50",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-25T04:55:24.076Z",
+        "created_at": "2023-09-25T03:11:03.518Z",
+        "updated_at": "2023-09-24T19:24:22.845Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "b014f798-512d-424c-9423-33c61ec86898",
+        "grade": 40071,
+        "class": "Grade 9",
+        "enrollment_date": "2023-09-24T22:59:09.596Z",
+        "created_at": "2023-09-24T16:11:54.078Z",
+        "updated_at": "2023-09-24T23:58:21.850Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "946f9aee-397e-4dba-91c5-5a60518f3cd4",
+        "grade": 9956,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T13:09:11.654Z",
+        "created_at": "2023-09-25T04:21:32.522Z",
+        "updated_at": "2023-09-25T09:12:29.375Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b0fc8cc-5ae8-4a93-a249-aed56ad6e2a9",
+        "grade": 74495,
+        "class": "Grade 11",
+        "enrollment_date": "2023-09-24T18:53:32.891Z",
+        "created_at": "2023-09-25T01:46:28.657Z",
+        "updated_at": "2023-09-25T04:01:58.545Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4138920-c835-450a-82b8-c314402e2b60",
+        "grade": 25156,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-24T22:20:49.258Z",
+        "created_at": "2023-09-24T22:12:48.675Z",
+        "updated_at": "2023-09-24T11:55:42.506Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d70392eb-e6de-4719-bb8e-6b519a173bef",
+        "grade": 45279,
+        "class": "College",
+        "enrollment_date": "2023-09-24T20:16:18.778Z",
+        "created_at": "2023-09-24T11:03:26.018Z",
+        "updated_at": "2023-09-24T13:45:22.242Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "dca24d63-5c58-45ce-ba24-3b7a51e20443",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming",
+        "created_at": "2023-09-24T13:59:54.813Z",
+        "updated_at": "2023-09-25T05:09:05.502Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "d4138920-c835-450a-82b8-c314402e2b60",
+        "teacher_id": "328c4ad5-66ee-4b40-a95e-19d33f791eb2"
+      },
+      {
+        "id": "e14bec12-7a6b-4c3f-8f44-ec2c73bbfff3",
+        "name": "Advanced Mathematics",
+        "description": "Explore advanced mathematical concepts",
+        "created_at": "2023-09-25T10:27:06.235Z",
+        "updated_at": "2023-09-24T16:40:52.603Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "d70392eb-e6de-4719-bb8e-6b519a173bef",
+        "teacher_id": "773f74bf-dc31-4cf9-ae37-0b34b7e9fa50"
+      },
+      {
+        "id": "69b36d92-f4d4-4446-8199-097baa6ac0fd",
+        "name": "Literature Appreciation",
+        "description": "Analyze and appreciate literary works",
+        "created_at": "2023-09-24T21:22:37.700Z",
+        "updated_at": "2023-09-24T14:50:21.333Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "d70392eb-e6de-4719-bb8e-6b519a173bef",
+        "teacher_id": "eb8ba8b5-c49e-41ef-8a9a-bd188e829513"
+      },
+      {
+        "id": "81ccbc70-74d5-4a02-ab76-5070c3cc8cfa",
+        "name": "World History",
+        "description": "Discover the history of civilizations",
+        "created_at": "2023-09-24T17:02:53.160Z",
+        "updated_at": "2023-09-25T01:33:12.690Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "946f9aee-397e-4dba-91c5-5a60518f3cd4",
+        "teacher_id": "328c4ad5-66ee-4b40-a95e-19d33f791eb2"
+      },
+      {
+        "id": "05332c2d-b742-47b3-aa20-33f1f789b3ed",
+        "name": "Data Analysis",
+        "description": "Master data analysis techniques",
+        "created_at": "2023-09-24T17:09:23.254Z",
+        "updated_at": "2023-09-25T08:42:16.664Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "946f9aee-397e-4dba-91c5-5a60518f3cd4",
+        "teacher_id": "328c4ad5-66ee-4b40-a95e-19d33f791eb2"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "1f539230-9aa7-4571-98df-3edb70776aca",
+        "grade": 36248,
+        "attendance": 38588,
+        "performance": "Excellent",
+        "created_at": "2023-09-24T23:49:04.555Z",
+        "updated_at": "2023-09-25T04:00:12.047Z",
+        "course_id": "69b36d92-f4d4-4446-8199-097baa6ac0fd",
+        "student_id": "b014f798-512d-424c-9423-33c61ec86898"
+      },
+      {
+        "id": "ddb2bc1d-8c18-4997-aa89-92c21e802fd7",
+        "grade": 43199,
+        "attendance": 22685,
+        "performance": "Good",
+        "created_at": "2023-09-25T08:08:23.921Z",
+        "updated_at": "2023-09-25T04:25:43.876Z",
+        "course_id": "dca24d63-5c58-45ce-ba24-3b7a51e20443",
+        "student_id": "7b0fc8cc-5ae8-4a93-a249-aed56ad6e2a9"
+      },
+      {
+        "id": "541fd5e0-4369-44f4-b16f-352f2b8a60be",
+        "grade": 74027,
+        "attendance": 53638,
+        "performance": "Average",
+        "created_at": "2023-09-25T07:21:47.618Z",
+        "updated_at": "2023-09-24T21:18:26.901Z",
+        "course_id": "dca24d63-5c58-45ce-ba24-3b7a51e20443",
+        "student_id": "b014f798-512d-424c-9423-33c61ec86898"
+      },
+      {
+        "id": "3c8660da-700e-4f50-9e33-f89c269d386b",
+        "grade": 84195,
+        "attendance": 61541,
+        "performance": "Below Average",
+        "created_at": "2023-09-24T12:33:50.666Z",
+        "updated_at": "2023-09-24T13:33:12.007Z",
+        "course_id": "e14bec12-7a6b-4c3f-8f44-ec2c73bbfff3",
+        "student_id": "946f9aee-397e-4dba-91c5-5a60518f3cd4"
+      },
+      {
+        "id": "7ee592a2-7ce8-43ec-a727-1551db77a1d3",
+        "grade": 29594,
+        "attendance": 26067,
+        "performance": "Poor",
+        "created_at": "2023-09-25T05:46:50.034Z",
+        "updated_at": "2023-09-24T11:18:54.164Z",
+        "course_id": "dca24d63-5c58-45ce-ba24-3b7a51e20443",
+        "student_id": "946f9aee-397e-4dba-91c5-5a60518f3cd4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "46a95e63-ad99-4049-80e9-f68043808e42",
+        "email": "Aryanna_Wilderman@roq.tech",
+        "firstName": "Jonathan",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45309022",
+        "tenantId": null
+      },
+      {
+        "reference": "59c389ab-e709-4c8c-914a-be5162653d66",
+        "email": "Judah_Conn@roq.tech",
+        "firstName": "Aron",
+        "lastName": "Barton-Gerlach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/325.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3bb565f-d666-4665-9562-2f9bc38cfdc1",
+        "email": "Sammy.Bechtelar36@roq.tech",
+        "firstName": "Elinor",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66600941",
+        "tenantId": null
+      },
+      {
+        "reference": "91f50d99-a12b-4a9c-ac25-86647d75b632",
+        "email": "Colton.Waelchi@roq.tech",
+        "firstName": "Sherman",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1049.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a84c9c7-044f-4d6a-8556-582d509efade",
+        "email": "Immanuel_Goyette-Barton@roq.tech",
+        "firstName": "Stephen",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/846.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "0454f113-38eb-4dce-bf7a-2fceeeafc05f",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-24T15:19:20.923Z",
+        "created_at": "2023-09-25T05:12:50.690Z",
+        "updated_at": "2023-09-24T13:49:10.284Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24fbbcf2-a330-49f7-aa69-1b5228e439f9",
+        "subject": "English",
+        "hired_date": "2023-09-25T09:22:05.782Z",
+        "created_at": "2023-09-25T08:28:44.797Z",
+        "updated_at": "2023-09-24T23:47:03.822Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08742e86-7f5f-41f6-b81b-1150e76ee2f0",
+        "subject": "Science",
+        "hired_date": "2023-09-24T23:03:32.478Z",
+        "created_at": "2023-09-25T02:15:46.700Z",
+        "updated_at": "2023-09-24T15:21:01.273Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27c45c87-ca87-4e3f-9ee4-eff9d6ddb41a",
+        "subject": "History",
+        "hired_date": "2023-09-25T08:35:51.288Z",
+        "created_at": "2023-09-25T05:27:32.416Z",
+        "updated_at": "2023-09-25T08:24:01.704Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "009c2478-8542-4d14-bb93-1841bc851533",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-24T12:52:23.155Z",
+        "created_at": "2023-09-24T15:18:58.417Z",
+        "updated_at": "2023-09-25T07:07:18.160Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "fdb953b8-f70e-4569-888f-f4b9face2186",
+        "grade": 13267,
+        "class": "Grade 1",
+        "enrollment_date": "2023-09-24T11:15:25.235Z",
+        "created_at": "2023-09-24T22:13:33.512Z",
+        "updated_at": "2023-09-24T23:41:46.905Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28c89e31-bb21-47ad-9c19-ec62608d51da",
+        "grade": 15993,
+        "class": "Grade 5",
+        "enrollment_date": "2023-09-24T17:15:10.762Z",
+        "created_at": "2023-09-24T21:12:17.357Z",
+        "updated_at": "2023-09-25T01:36:47.057Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "368f1929-ed56-4c27-82bc-c160e7189236",
+        "grade": 29669,
+        "class": "Grade 8",
+        "enrollment_date": "2023-09-25T02:56:34.770Z",
+        "created_at": "2023-09-25T05:37:30.039Z",
+        "updated_at": "2023-09-24T15:25:48.955Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4300970e-ff3f-4f56-a91e-e37bcca618f0",
+        "grade": 95621,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T14:51:03.244Z",
+        "created_at": "2023-09-24T21:35:12.727Z",
+        "updated_at": "2023-09-25T07:24:11.033Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "784dec6e-cbce-4494-9f1d-7a215d5e640a",
+        "grade": 24094,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-25T01:59:32.528Z",
+        "created_at": "2023-09-24T12:32:40.181Z",
+        "updated_at": "2023-09-25T04:27:35.762Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "6cd3b8f4-29c8-4d0e-9ab6-8286cb231063",
+        "name": "Introduction to Programming",
+        "description": "Learn the fundamentals of programming and problem-solving",
+        "created_at": "2023-09-24T13:05:48.264Z",
+        "updated_at": "2023-09-25T05:08:38.160Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "fdb953b8-f70e-4569-888f-f4b9face2186",
+        "teacher_id": "0454f113-38eb-4dce-bf7a-2fceeeafc05f"
+      },
+      {
+        "id": "2169c176-d8d1-4d73-943b-e70bb2384c81",
+        "name": "English Literature",
+        "description": "Explore classic works of literature and analyze their themes",
+        "created_at": "2023-09-24T18:53:43.135Z",
+        "updated_at": "2023-09-24T20:35:28.259Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "4300970e-ff3f-4f56-a91e-e37bcca618f0",
+        "teacher_id": "27c45c87-ca87-4e3f-9ee4-eff9d6ddb41a"
+      },
+      {
+        "id": "ef0f2385-a1d0-4f24-8fbe-458f9234dc6f",
+        "name": "Chemistry Basics",
+        "description": "Discover the basic principles and concepts of chemistry",
+        "created_at": "2023-09-24T18:23:24.334Z",
+        "updated_at": "2023-09-24T23:52:57.154Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "28c89e31-bb21-47ad-9c19-ec62608d51da",
+        "teacher_id": "0454f113-38eb-4dce-bf7a-2fceeeafc05f"
+      },
+      {
+        "id": "f0e219df-37ad-4191-92a2-aa51fbe64711",
+        "name": "World History",
+        "description": "Study the major events and developments in world history",
+        "created_at": "2023-09-24T10:52:30.294Z",
+        "updated_at": "2023-09-24T19:52:52.316Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "4300970e-ff3f-4f56-a91e-e37bcca618f0",
+        "teacher_id": "27c45c87-ca87-4e3f-9ee4-eff9d6ddb41a"
+      },
+      {
+        "id": "7824a3ea-298f-45fb-b188-0b2204db5f9c",
+        "name": "Web Development",
+        "description": "Build dynamic websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-09-24T19:24:35.809Z",
+        "updated_at": "2023-09-24T22:15:24.883Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "fdb953b8-f70e-4569-888f-f4b9face2186",
+        "teacher_id": "24fbbcf2-a330-49f7-aa69-1b5228e439f9"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "0a17bfe0-3df1-4fdb-a48d-f1351b6ef2ee",
+        "grade": 6972,
+        "attendance": 61235,
+        "performance": "Excellent",
+        "created_at": "2023-09-25T04:29:17.506Z",
+        "updated_at": "2023-09-24T19:14:34.636Z",
+        "course_id": "7824a3ea-298f-45fb-b188-0b2204db5f9c",
+        "student_id": "784dec6e-cbce-4494-9f1d-7a215d5e640a"
+      },
+      {
+        "id": "10b27eee-83be-4bd8-bd54-823dc1b24244",
+        "grade": 78075,
+        "attendance": 30961,
+        "performance": "Good",
+        "created_at": "2023-09-25T09:42:27.303Z",
+        "updated_at": "2023-09-24T12:23:33.751Z",
+        "course_id": "ef0f2385-a1d0-4f24-8fbe-458f9234dc6f",
+        "student_id": "784dec6e-cbce-4494-9f1d-7a215d5e640a"
+      },
+      {
+        "id": "b4c363dc-6b9b-4056-b8fe-c90ba85adbd8",
+        "grade": 45686,
+        "attendance": 22631,
+        "performance": "Average",
+        "created_at": "2023-09-24T21:17:01.299Z",
+        "updated_at": "2023-09-25T03:28:40.037Z",
+        "course_id": "6cd3b8f4-29c8-4d0e-9ab6-8286cb231063",
+        "student_id": "28c89e31-bb21-47ad-9c19-ec62608d51da"
+      },
+      {
+        "id": "053ddf94-c6cd-4e74-8ec3-4e87a2059880",
+        "grade": 51021,
+        "attendance": 77960,
+        "performance": "Below Average",
+        "created_at": "2023-09-25T07:37:51.261Z",
+        "updated_at": "2023-09-25T00:00:35.677Z",
+        "course_id": "ef0f2385-a1d0-4f24-8fbe-458f9234dc6f",
+        "student_id": "368f1929-ed56-4c27-82bc-c160e7189236"
+      },
+      {
+        "id": "87c02ced-c150-4f94-919a-f84b2718ef2b",
+        "grade": 35286,
+        "attendance": 21688,
+        "performance": "Poor",
+        "created_at": "2023-09-24T17:38:38.386Z",
+        "updated_at": "2023-09-25T03:55:32.371Z",
+        "course_id": "ef0f2385-a1d0-4f24-8fbe-458f9234dc6f",
+        "student_id": "4300970e-ff3f-4f56-a91e-e37bcca618f0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cf482ea2-9b1b-4bae-a5eb-ef1d388a49e3",
+        "email": "Violet_Pouros63@roq.tech",
+        "firstName": "Cornelius",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/435.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1127604a-e85a-4dd1-977f-895fcd6e8c8c",
+        "email": "Antonina.Lebsack@roq.tech",
+        "firstName": "Meghan",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/269.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e3c28fe-2acc-4888-8d75-a11ddf3f41fb",
+        "email": "Bridget_Lakin@roq.tech",
+        "firstName": "Therese",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60132096",
+        "tenantId": null
+      },
+      {
+        "reference": "80c1ff35-d285-4226-8ba2-91450c469545",
+        "email": "Cornell_Dickens@roq.tech",
+        "firstName": "Brenden",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fdc47022-063b-4700-9fcf-471b1d0d06ff",
+        "email": "Queen65@roq.tech",
+        "firstName": "Arlene",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49810607",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "27c07c08-e9f1-4586-981e-981749950955",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-24T15:22:54.467Z",
+        "created_at": "2023-09-24T15:34:22.266Z",
+        "updated_at": "2023-09-24T12:11:04.745Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17602857-829f-456c-b36b-a1161edf8241",
+        "subject": "Science",
+        "hired_date": "2023-09-24T21:02:26.731Z",
+        "created_at": "2023-09-24T20:20:53.912Z",
+        "updated_at": "2023-09-24T15:58:21.342Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87e94cd9-0312-43be-8835-8bcf3d06c4c7",
+        "subject": "English",
+        "hired_date": "2023-09-24T13:13:45.042Z",
+        "created_at": "2023-09-25T00:08:08.646Z",
+        "updated_at": "2023-09-24T11:04:59.998Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "335ed091-21f6-42dd-bf2c-9c2f80fe8055",
+        "subject": "History",
+        "hired_date": "2023-09-25T08:23:00.674Z",
+        "created_at": "2023-09-25T07:33:04.257Z",
+        "updated_at": "2023-09-25T00:06:54.069Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14f33f76-d49d-467d-b1ed-8e0bfbc1dd37",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-25T03:24:05.034Z",
+        "created_at": "2023-09-24T11:24:53.880Z",
+        "updated_at": "2023-09-24T12:10:56.516Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "087bf89d-dc67-4539-a9f5-0c4fc28ca821",
+        "grade": 92434,
+        "class": "Class A",
+        "enrollment_date": "2023-09-24T19:04:45.684Z",
+        "created_at": "2023-09-25T07:49:06.298Z",
+        "updated_at": "2023-09-24T11:20:47.075Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40dbdcfd-57ef-4aaa-a26f-207b6c53d151",
+        "grade": 23880,
+        "class": "Class B",
+        "enrollment_date": "2023-09-25T01:58:57.930Z",
+        "created_at": "2023-09-24T22:41:01.963Z",
+        "updated_at": "2023-09-24T12:49:05.573Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd103fdb-5df4-4632-8e83-219ea3fe4ff6",
+        "grade": 46993,
+        "class": "Class C",
+        "enrollment_date": "2023-09-24T20:12:02.587Z",
+        "created_at": "2023-09-24T22:07:51.796Z",
+        "updated_at": "2023-09-25T01:43:35.803Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be20e0d3-d6cf-4f9a-ac12-5fe279fb9699",
+        "grade": 72110,
+        "class": "Class D",
+        "enrollment_date": "2023-09-25T01:51:51.243Z",
+        "created_at": "2023-09-24T11:20:25.209Z",
+        "updated_at": "2023-09-25T06:39:31.537Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b1484dd-efc5-46d0-8c6b-bf39226ae3d5",
+        "grade": 91138,
+        "class": "Class E",
+        "enrollment_date": "2023-09-24T15:07:07.857Z",
+        "created_at": "2023-09-25T03:30:40.318Z",
+        "updated_at": "2023-09-25T05:40:03.552Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "fe31da03-5551-44b0-9f17-b3f505810cbd",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming",
+        "created_at": "2023-09-24T11:18:00.639Z",
+        "updated_at": "2023-09-25T05:11:48.345Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "087bf89d-dc67-4539-a9f5-0c4fc28ca821",
+        "teacher_id": "87e94cd9-0312-43be-8835-8bcf3d06c4c7"
+      },
+      {
+        "id": "3500b8f1-de40-4da5-94f3-b7ccd6c1659e",
+        "name": "Data Analysis and Visualization",
+        "description": "Explore data analysis techniques",
+        "created_at": "2023-09-24T20:40:21.551Z",
+        "updated_at": "2023-09-24T18:10:34.042Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "40dbdcfd-57ef-4aaa-a26f-207b6c53d151",
+        "teacher_id": "27c07c08-e9f1-4586-981e-981749950955"
+      },
+      {
+        "id": "000b1909-0f5d-442d-ac32-91695bda57c4",
+        "name": "English Literature",
+        "description": "Study classic works of literature",
+        "created_at": "2023-09-24T13:24:53.084Z",
+        "updated_at": "2023-09-24T14:54:06.316Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "087bf89d-dc67-4539-a9f5-0c4fc28ca821",
+        "teacher_id": "87e94cd9-0312-43be-8835-8bcf3d06c4c7"
+      },
+      {
+        "id": "01ef5950-4a41-415b-bb3d-7e21719d45ae",
+        "name": "World History",
+        "description": "Discover the events that shaped our world",
+        "created_at": "2023-09-25T10:39:39.284Z",
+        "updated_at": "2023-09-24T13:56:05.521Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "087bf89d-dc67-4539-a9f5-0c4fc28ca821",
+        "teacher_id": "17602857-829f-456c-b36b-a1161edf8241"
+      },
+      {
+        "id": "5a96df27-329f-48d3-9be6-5caec49211a1",
+        "name": "Web Development",
+        "description": "Build dynamic websites",
+        "created_at": "2023-09-24T11:55:50.321Z",
+        "updated_at": "2023-09-25T09:10:09.013Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "087bf89d-dc67-4539-a9f5-0c4fc28ca821",
+        "teacher_id": "14f33f76-d49d-467d-b1ed-8e0bfbc1dd37"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "9e3dbbe9-e8e1-4463-b0f8-d36acec3f7aa",
+        "grade": 12191,
+        "attendance": 39835,
+        "performance": "High",
+        "created_at": "2023-09-24T15:25:57.700Z",
+        "updated_at": "2023-09-24T18:43:06.115Z",
+        "course_id": "fe31da03-5551-44b0-9f17-b3f505810cbd",
+        "student_id": "3b1484dd-efc5-46d0-8c6b-bf39226ae3d5"
+      },
+      {
+        "id": "d7269982-3497-4fc0-824a-badd95b75ec0",
+        "grade": 94396,
+        "attendance": 26705,
+        "performance": "Medium",
+        "created_at": "2023-09-24T19:15:08.174Z",
+        "updated_at": "2023-09-24T17:04:35.668Z",
+        "course_id": "fe31da03-5551-44b0-9f17-b3f505810cbd",
+        "student_id": "cd103fdb-5df4-4632-8e83-219ea3fe4ff6"
+      },
+      {
+        "id": "09069a8f-d3eb-4f50-af76-2761037484c3",
+        "grade": 47788,
+        "attendance": 15290,
+        "performance": "Low",
+        "created_at": "2023-09-25T01:35:25.267Z",
+        "updated_at": "2023-09-25T04:27:37.920Z",
+        "course_id": "fe31da03-5551-44b0-9f17-b3f505810cbd",
+        "student_id": "40dbdcfd-57ef-4aaa-a26f-207b6c53d151"
+      },
+      {
+        "id": "30345e07-cd49-4ca6-8d0a-d7b785881d98",
+        "grade": 27631,
+        "attendance": 79086,
+        "performance": "Excellent",
+        "created_at": "2023-09-25T00:37:47.286Z",
+        "updated_at": "2023-09-24T20:19:34.545Z",
+        "course_id": "01ef5950-4a41-415b-bb3d-7e21719d45ae",
+        "student_id": "be20e0d3-d6cf-4f9a-ac12-5fe279fb9699"
+      },
+      {
+        "id": "f9dfbad7-1e06-45cd-9620-1e0b2b8cf608",
+        "grade": 97367,
+        "attendance": 86613,
+        "performance": "Average",
+        "created_at": "2023-09-24T11:35:20.178Z",
+        "updated_at": "2023-09-25T02:33:27.323Z",
+        "course_id": "000b1909-0f5d-442d-ac32-91695bda57c4",
+        "student_id": "40dbdcfd-57ef-4aaa-a26f-207b6c53d151"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c46c9152-e53d-430b-8d5e-c99b852dc9ac",
+        "email": "Reta.Mosciski@roq.tech",
+        "firstName": "Vivian",
+        "lastName": "Farrell-Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83a79e04-b630-491e-8e4b-f3404be4d9f4",
+        "email": "Vernice_Murray14@roq.tech",
+        "firstName": "Linnea",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5440163",
+        "tenantId": null
+      },
+      {
+        "reference": "50a07f39-c525-4908-964f-9c1317f94eaa",
+        "email": "Rhiannon.Bergstrom91@roq.tech",
+        "firstName": "Lelia",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/462.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "620c33a5-8bc9-4b10-8d4e-7f66099ff2a4",
+        "email": "Leif.Auer28@roq.tech",
+        "firstName": "Alycia",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86873780",
+        "tenantId": null
+      },
+      {
+        "reference": "6c88439a-ff2a-4fa5-9726-8d4ed3f76bad",
+        "email": "Luther34@roq.tech",
+        "firstName": "Percy",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/473.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "aaa863ad-e8da-4cc5-9ab4-2f3f9377126b",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-25T09:04:41.868Z",
+        "created_at": "2023-09-25T03:10:37.825Z",
+        "updated_at": "2023-09-24T17:07:01.240Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bbd7e0d-360e-48f0-a713-a8ad57f1e112",
+        "subject": "Science",
+        "hired_date": "2023-09-25T08:47:12.018Z",
+        "created_at": "2023-09-24T10:46:21.447Z",
+        "updated_at": "2023-09-25T00:50:14.345Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "034a1841-9afb-468d-b08a-3844f1b598e3",
+        "subject": "History",
+        "hired_date": "2023-09-24T17:04:25.717Z",
+        "created_at": "2023-09-25T07:52:12.668Z",
+        "updated_at": "2023-09-25T02:21:43.291Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15b72d0d-3915-4d7b-84a0-7efb98c737eb",
+        "subject": "English",
+        "hired_date": "2023-09-25T09:59:48.426Z",
+        "created_at": "2023-09-24T17:34:56.496Z",
+        "updated_at": "2023-09-24T23:42:12.487Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0eb2e861-a903-48fa-9428-13bd5bf6989b",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-24T19:06:00.691Z",
+        "created_at": "2023-09-25T06:47:13.758Z",
+        "updated_at": "2023-09-25T06:29:46.510Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "b1233cb3-394d-4c16-a293-f23a3dd6d4cb",
+        "grade": 98982,
+        "class": "Class 1A",
+        "enrollment_date": "2023-09-25T10:31:32.715Z",
+        "created_at": "2023-09-25T04:07:26.974Z",
+        "updated_at": "2023-09-25T07:23:29.909Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ad65b8f-24eb-404c-8541-1baadf51aaa5",
+        "grade": 33638,
+        "class": "Class 2B",
+        "enrollment_date": "2023-09-24T19:01:38.080Z",
+        "created_at": "2023-09-25T06:07:31.872Z",
+        "updated_at": "2023-09-25T09:16:56.761Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f658e659-62fd-4f47-9a08-d261c8d2d0fc",
+        "grade": 32497,
+        "class": "Class 3C",
+        "enrollment_date": "2023-09-25T09:51:55.723Z",
+        "created_at": "2023-09-24T13:01:58.056Z",
+        "updated_at": "2023-09-25T10:24:34.161Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fd801f9-e6c2-4a05-9e57-b9af6bdedefc",
+        "grade": 8159,
+        "class": "Class 4D",
+        "enrollment_date": "2023-09-24T12:09:41.619Z",
+        "created_at": "2023-09-24T17:27:25.872Z",
+        "updated_at": "2023-09-25T06:32:09.035Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "121da94b-0043-4c2e-91ab-fed6717f5891",
+        "grade": 76576,
+        "class": "Class 5E",
+        "enrollment_date": "2023-09-24T11:53:58.921Z",
+        "created_at": "2023-09-24T18:43:02.439Z",
+        "updated_at": "2023-09-24T20:18:06.386Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "cfedab01-7995-40a5-9d42-b8e35f6b4e44",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and develop problem-solving skills",
+        "created_at": "2023-09-25T06:21:14.193Z",
+        "updated_at": "2023-09-24T10:51:58.731Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "f658e659-62fd-4f47-9a08-d261c8d2d0fc",
+        "teacher_id": "aaa863ad-e8da-4cc5-9ab4-2f3f9377126b"
+      },
+      {
+        "id": "7e396384-30c9-4d04-b38a-25d2e0a642ae",
+        "name": "Data Analysis and Visualization",
+        "description": "Explore data analysis techniques and create compelling visualizations",
+        "created_at": "2023-09-25T04:12:07.150Z",
+        "updated_at": "2023-09-24T13:51:13.749Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "121da94b-0043-4c2e-91ab-fed6717f5891",
+        "teacher_id": "1bbd7e0d-360e-48f0-a713-a8ad57f1e112"
+      },
+      {
+        "id": "ed0621fd-608b-43e7-9d81-e26307f324ad",
+        "name": "Business Management Fundamentals",
+        "description": "Gain a solid understanding of key business management principles",
+        "created_at": "2023-09-25T08:12:13.019Z",
+        "updated_at": "2023-09-24T16:35:32.567Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "f658e659-62fd-4f47-9a08-d261c8d2d0fc",
+        "teacher_id": "0eb2e861-a903-48fa-9428-13bd5bf6989b"
+      },
+      {
+        "id": "11ce2987-1c49-41b9-9051-e5b3ee5c44a1",
+        "name": "Artificial Intelligence Applications",
+        "description": "Discover the applications and potential of artificial intelligence",
+        "created_at": "2023-09-24T17:59:29.839Z",
+        "updated_at": "2023-09-24T22:26:41.969Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "121da94b-0043-4c2e-91ab-fed6717f5891",
+        "teacher_id": "1bbd7e0d-360e-48f0-a713-a8ad57f1e112"
+      },
+      {
+        "id": "cc9d3289-59d0-417b-b433-9da6f7ca7195",
+        "name": "Web Development",
+        "description": "Build dynamic and responsive websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-09-24T17:01:39.887Z",
+        "updated_at": "2023-09-24T12:28:02.109Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "3fd801f9-e6c2-4a05-9e57-b9af6bdedefc",
+        "teacher_id": "1bbd7e0d-360e-48f0-a713-a8ad57f1e112"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "1adbf545-89bc-4cae-bb7e-2a405903d3bb",
+        "grade": 77730,
+        "attendance": 32484,
+        "performance": "High",
+        "created_at": "2023-09-25T01:30:42.547Z",
+        "updated_at": "2023-09-24T21:56:28.319Z",
+        "course_id": "cc9d3289-59d0-417b-b433-9da6f7ca7195",
+        "student_id": "121da94b-0043-4c2e-91ab-fed6717f5891"
+      },
+      {
+        "id": "16008f87-bd0b-4af8-8d3e-3a5b378c6c33",
+        "grade": 60293,
+        "attendance": 3227,
+        "performance": "Medium",
+        "created_at": "2023-09-24T11:06:38.493Z",
+        "updated_at": "2023-09-24T16:05:44.895Z",
+        "course_id": "11ce2987-1c49-41b9-9051-e5b3ee5c44a1",
+        "student_id": "3fd801f9-e6c2-4a05-9e57-b9af6bdedefc"
+      },
+      {
+        "id": "9a37fb14-fa3c-47fd-af56-880f16bc28fb",
+        "grade": 4873,
+        "attendance": 64355,
+        "performance": "Low",
+        "created_at": "2023-09-25T08:37:18.588Z",
+        "updated_at": "2023-09-25T10:33:00.231Z",
+        "course_id": "cc9d3289-59d0-417b-b433-9da6f7ca7195",
+        "student_id": "b1233cb3-394d-4c16-a293-f23a3dd6d4cb"
+      },
+      {
+        "id": "14ca905e-ae36-42c9-bae5-8b048ff01d4c",
+        "grade": 50438,
+        "attendance": 32384,
+        "performance": "Excellent",
+        "created_at": "2023-09-25T09:57:48.777Z",
+        "updated_at": "2023-09-24T11:55:27.027Z",
+        "course_id": "7e396384-30c9-4d04-b38a-25d2e0a642ae",
+        "student_id": "f658e659-62fd-4f47-9a08-d261c8d2d0fc"
+      },
+      {
+        "id": "b62547de-e889-4c50-9e56-15c4e156bcc6",
+        "grade": 20615,
+        "attendance": 21227,
+        "performance": "Average",
+        "created_at": "2023-09-25T10:18:51.353Z",
+        "updated_at": "2023-09-24T10:48:32.784Z",
+        "course_id": "11ce2987-1c49-41b9-9051-e5b3ee5c44a1",
+        "student_id": "f658e659-62fd-4f47-9a08-d261c8d2d0fc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "803a9fa7-368b-4215-a9f8-c2cc6fad1d4f",
+        "email": "Madalyn_Olson-Hettinger@roq.tech",
+        "firstName": "Deon",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1218.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "328b90c9-a0bb-4354-a0d5-c065219b3695",
+        "email": "Jon_Schmidt@roq.tech",
+        "firstName": "Mckayla",
+        "lastName": "Moore-Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74734642",
+        "tenantId": null
+      },
+      {
+        "reference": "f4498395-c92a-41e3-a3d7-baf71e953511",
+        "email": "Foster83@roq.tech",
+        "firstName": "Dante",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8ee685e-9d42-41e1-8556-254934f60412",
+        "email": "Tristin_Daniel@roq.tech",
+        "firstName": "Wendell",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1026.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a7f2b2c-9dc6-4e89-9092-1ec7cf09601d",
+        "email": "Shakira77@roq.tech",
+        "firstName": "Ransom",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/207.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "a226727e-91d0-41be-ac3a-71511a2334d0",
+        "subject": "Mathematics",
+        "hired_date": "2023-09-25T06:38:46.786Z",
+        "created_at": "2023-09-24T14:12:00.301Z",
+        "updated_at": "2023-09-25T09:17:43.166Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "522cc889-039a-41f6-a922-f76e014d2bbf",
+        "subject": "Science",
+        "hired_date": "2023-09-25T08:18:26.241Z",
+        "created_at": "2023-09-25T00:43:07.226Z",
+        "updated_at": "2023-09-24T12:23:55.437Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8ff361b-ac35-43b5-bea9-d1a57cf3b9e5",
+        "subject": "English",
+        "hired_date": "2023-09-24T17:04:13.489Z",
+        "created_at": "2023-09-24T21:17:40.482Z",
+        "updated_at": "2023-09-24T17:22:35.820Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acebc2cc-0828-4f66-ab82-4c2dfa52f230",
+        "subject": "History",
+        "hired_date": "2023-09-24T15:13:58.171Z",
+        "created_at": "2023-09-25T00:28:21.387Z",
+        "updated_at": "2023-09-24T13:12:39.535Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b73584d-662b-4e97-a2f5-c7bc9b7ccee5",
+        "subject": "Computer Science",
+        "hired_date": "2023-09-24T11:29:53.084Z",
+        "created_at": "2023-09-24T19:04:47.879Z",
+        "updated_at": "2023-09-25T00:41:29.993Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "d63b44ab-3271-41a9-a069-3caefe51aeb5",
+        "grade": 74311,
+        "class": "Grade 1",
+        "enrollment_date": "2023-09-24T11:19:03.087Z",
+        "created_at": "2023-09-24T11:01:38.325Z",
+        "updated_at": "2023-09-25T03:32:59.273Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b47159e-58f6-4864-97ed-b97cf37bb549",
+        "grade": 80810,
+        "class": "Grade 5",
+        "enrollment_date": "2023-09-24T21:45:24.079Z",
+        "created_at": "2023-09-25T06:36:21.853Z",
+        "updated_at": "2023-09-25T04:33:27.490Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6df06326-5e50-430d-825d-4414406952a4",
+        "grade": 41370,
+        "class": "Grade 8",
+        "enrollment_date": "2023-09-25T08:48:06.750Z",
+        "created_at": "2023-09-24T14:50:01.575Z",
+        "updated_at": "2023-09-25T00:41:24.824Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc64f389-bd1c-42ba-b16f-91b94e5e2e76",
+        "grade": 93115,
+        "class": "Grade 10",
+        "enrollment_date": "2023-09-24T22:28:37.440Z",
+        "created_at": "2023-09-25T07:04:02.420Z",
+        "updated_at": "2023-09-25T07:01:08.864Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4aef4d0e-ac98-4688-8603-e002cfb3aa57",
+        "grade": 60064,
+        "class": "Grade 12",
+        "enrollment_date": "2023-09-24T11:52:55.936Z",
+        "created_at": "2023-09-24T23:27:59.552Z",
+        "updated_at": "2023-09-25T05:07:27.873Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "course": [
+      {
+        "id": "243064cc-a47e-4b29-8c5b-4fa362632fcd",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and problem-solving",
+        "created_at": "2023-09-25T00:22:41.350Z",
+        "updated_at": "2023-09-24T23:42:44.150Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "4b47159e-58f6-4864-97ed-b97cf37bb549",
+        "teacher_id": "8b73584d-662b-4e97-a2f5-c7bc9b7ccee5"
+      },
+      {
+        "id": "c00ec2f6-4a40-4097-a762-ccd2cc473fc8",
+        "name": "Data Analysis and Visualization",
+        "description": "Explore techniques for analyzing and visualizing data",
+        "created_at": "2023-09-25T02:38:19.065Z",
+        "updated_at": "2023-09-24T14:18:06.761Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "4b47159e-58f6-4864-97ed-b97cf37bb549",
+        "teacher_id": "a226727e-91d0-41be-ac3a-71511a2334d0"
+      },
+      {
+        "id": "0036af97-fbc5-4c13-bc3a-80df8455f399",
+        "name": "Business Management",
+        "description": "Develop skills in managing business operations",
+        "created_at": "2023-09-24T21:45:37.389Z",
+        "updated_at": "2023-09-24T19:51:45.195Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "4aef4d0e-ac98-4688-8603-e002cfb3aa57",
+        "teacher_id": "a226727e-91d0-41be-ac3a-71511a2334d0"
+      },
+      {
+        "id": "66b5f7ec-f693-4ca0-b022-6cd361bf8fad",
+        "name": "Artificial Intelligence",
+        "description": "Study advanced concepts in AI and machine learning",
+        "created_at": "2023-09-24T15:24:58.890Z",
+        "updated_at": "2023-09-24T21:44:09.709Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "d63b44ab-3271-41a9-a069-3caefe51aeb5",
+        "teacher_id": "8b73584d-662b-4e97-a2f5-c7bc9b7ccee5"
+      },
+      {
+        "id": "355f2bfb-c964-4b94-92ec-aa9a01f989ef",
+        "name": "Web Development",
+        "description": "Build dynamic websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-09-24T23:14:08.730Z",
+        "updated_at": "2023-09-24T17:15:03.657Z",
+        "organization_id": "main_entity_pk",
+        "student_id": "dc64f389-bd1c-42ba-b16f-91b94e5e2e76",
+        "teacher_id": "e8ff361b-ac35-43b5-bea9-d1a57cf3b9e5"
+      }
+    ],
+    "analytics": [
+      {
+        "id": "f1c569fc-889a-451e-af15-1b4d8d24a9e4",
+        "grade": 11457,
+        "attendance": 42615,
+        "performance": "Excellent",
+        "created_at": "2023-09-25T07:22:40.980Z",
+        "updated_at": "2023-09-24T16:41:53.020Z",
+        "course_id": "243064cc-a47e-4b29-8c5b-4fa362632fcd",
+        "student_id": "4aef4d0e-ac98-4688-8603-e002cfb3aa57"
+      },
+      {
+        "id": "d720a0aa-9623-4b6e-9fce-467b02978c0d",
+        "grade": 33348,
+        "attendance": 80956,
+        "performance": "Good",
+        "created_at": "2023-09-24T13:06:35.274Z",
+        "updated_at": "2023-09-24T17:13:20.737Z",
+        "course_id": "c00ec2f6-4a40-4097-a762-ccd2cc473fc8",
+        "student_id": "6df06326-5e50-430d-825d-4414406952a4"
+      },
+      {
+        "id": "f058af5f-4816-45fa-93e7-0b9a7c2dd484",
+        "grade": 31920,
+        "attendance": 24684,
+        "performance": "Average",
+        "created_at": "2023-09-25T03:25:06.686Z",
+        "updated_at": "2023-09-25T10:24:56.182Z",
+        "course_id": "c00ec2f6-4a40-4097-a762-ccd2cc473fc8",
+        "student_id": "d63b44ab-3271-41a9-a069-3caefe51aeb5"
+      },
+      {
+        "id": "72809da3-f41f-4372-9745-75ca8e8840da",
+        "grade": 54953,
+        "attendance": 6505,
+        "performance": "Below Average",
+        "created_at": "2023-09-25T01:52:29.705Z",
+        "updated_at": "2023-09-24T17:55:36.695Z",
+        "course_id": "66b5f7ec-f693-4ca0-b022-6cd361bf8fad",
+        "student_id": "dc64f389-bd1c-42ba-b16f-91b94e5e2e76"
+      },
+      {
+        "id": "650650fd-c731-42ed-b459-b7c4cd8286a5",
+        "grade": 71218,
+        "attendance": 12354,
+        "performance": "Poor",
+        "created_at": "2023-09-24T23:31:54.800Z",
+        "updated_at": "2023-09-25T04:02:52.055Z",
+        "course_id": "243064cc-a47e-4b29-8c5b-4fa362632fcd",
+        "student_id": "d63b44ab-3271-41a9-a069-3caefe51aeb5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "75729a19-3a56-47c6-8609-bebc34f0b6e1",
+        "email": "Brennon59@roq.tech",
+        "firstName": "Malvina",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41059839",
+        "tenantId": null
+      },
+      {
+        "reference": "05cc5bfb-a70c-434a-a047-662e8dede6dd",
+        "email": "Percy81@roq.tech",
+        "firstName": "Coby",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95030474",
+        "tenantId": null
+      },
+      {
+        "reference": "d24e3394-1fa0-41c9-b401-ca114ad43662",
+        "email": "Rowan_Weissnat-Reichert@roq.tech",
+        "firstName": "Rubye",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25406318",
+        "tenantId": null
+      },
+      {
+        "reference": "e99e3526-43e8-4f4c-8a84-31d4df654a9a",
+        "email": "Gilbert96@roq.tech",
+        "firstName": "Ari",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/720.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "70379c83-0958-400a-9364-a4d2c2cbb0d3",
+        "email": "Hettie90@roq.tech",
+        "firstName": "Buster",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27352514",
+        "tenantId": null
+      }
+    ]
+  }
+]
